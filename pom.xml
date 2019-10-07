@@ -1,16 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>subclass_doom</groupId>
   <artifactId>subclass_doom</artifactId>
-  <version>0.0.0.1-SNAPSHOT</version>
+  <version>0.0.0.1</version>
 
   <name>subclass_doom</name>
   <!-- FIXME change it to the project's website -->
-  <url>http://www.example.com</url>
+  <url>https://github.com/zacharysmith51/subclass_doom</url>
+  
+  <scm>
+	<url>https://github.com/zacharysmith51/subclass_doom</url>
+	<connection>scm:git:git@github.com:zacharysmith51/subclass_doom.git</connection>
+	<developerConnection>scm:git:git@github.com:zacharysmith51/subclass_doom.git</developerConnection>
+    <tag>subclass_doom-0.0.0.1</tag>
+  </scm>
+  
+  <developers>
+		<developer>
+			<email>zacharysmith51@hotmail.com</email>
+			<name>zacharysmith51</name>
+			<url>https://github.com/zacharysmith51</url>
+			<id>zacharysmith51</id>
+		</developer>
+  </developers>
+  
+  <distributionManagement>
+   <repository>
+     <id>github</id>
+     <name>GitHub OWNER Apache Maven Packages</name>
+     <url>https://maven.pkg.github.com/zacharysmith51</url>
+   </repository>
+  </distributionManagement>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
